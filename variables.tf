@@ -1,6 +1,6 @@
 variable "name" {
   type    = string
-  default = "kubernetes-on-arm-with-oracle"
+  default = "k8s-oracle"
 }
 
 /*
@@ -35,4 +35,16 @@ variable "ocpus_per_node" {
 variable "memory_in_gbs_per_node" {
   type    = number
   default = 6
+}
+
+variable "tenancy_ocid" {
+  type    = string
+}
+
+variable "user_ocid" {
+  type    = string
+}
+
+variable "fingerprint" {
+  type    = string
 }

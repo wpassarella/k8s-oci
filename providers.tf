@@ -6,3 +6,10 @@ terraform {
     }
   }
 }
+
+provider "oci" {
+  tenancy_ocid  = var.OCI_TENANCY_OCID
+  user_ocid     = var.OCI_USER_OCID
+  fingerprint   = var.OCI_FINGERPRINT
+  region        = "us-ashburn-1"
+}
