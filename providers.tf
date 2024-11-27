@@ -6,3 +6,8 @@ terraform {
     }
   }
 }
+
+provider "oci" {
+  private_key_path = var.private_key_path
+  region         = "us-ashburn-1"
+}
