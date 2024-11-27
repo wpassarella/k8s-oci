@@ -37,14 +37,14 @@ variable "memory_in_gbs_per_node" {
   default = 6
 }
 
-variable "tenancy_ocid" {
+variable "OCI_TENANCY_OCID" {
   type    = string
 }
 
-variable "user_ocid" {
+variable "OCI_USER_OCID" {
   type    = string
 }
 
-variable "fingerprint" {
+variable "OCI_FINGERPRINT" {
   type    = string
 }
