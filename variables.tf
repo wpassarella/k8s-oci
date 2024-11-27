@@ -36,15 +36,3 @@ variable "memory_in_gbs_per_node" {
   type    = number
   default = 6
 }
-
-variable "OCI_TENANCY_OCID" {
-  type    = string
-}
-
-variable "OCI_USER_OCID" {
-  type    = string
-}
-
-variable "OCI_FINGERPRINT" {
-  type    = string
-}
