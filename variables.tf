@@ -36,3 +36,7 @@ variable "memory_in_gbs_per_node" {
   type    = number
   default = 6
 }
+
+variable "private_key_path" {
+  type    = string
+}
