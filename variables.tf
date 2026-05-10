@@ -40,3 +40,24 @@ variable "memory_in_gbs_per_node" {
 variable "private_key_path" {
   type    = string
 }
+
+variable "tenancy_ocid" {
+  type = string
+}
+
+variable "user_ocid" {
+  type = string
+}
+
+variable "fingerprint" {
+  type = string
+}
+
+variable "region" {
+  type = string
+  default = "us-ashburn-1"
+}
+
+variable "private_key" {
+  type = string
+}
