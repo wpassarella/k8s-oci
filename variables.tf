@@ -1,6 +1,6 @@
 variable "name" {
   type    = string
-  default = "k8s-oracle"
+  default = "k8s-oci"
 }
 
 /*
