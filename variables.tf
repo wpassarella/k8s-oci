@@ -37,9 +37,9 @@ variable "memory_in_gbs_per_node" {
   default = 6
 }
 
-variable "private_key_path" {
-  type    = string
-}
+#variable "private_key_path" {
+#  type    = string
+#}
 
 variable "tenancy_ocid" {
   type = string
